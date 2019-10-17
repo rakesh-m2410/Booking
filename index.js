@@ -12,7 +12,7 @@ rl.question('Enter number of table present in the restaurant ', (n) => {
   for(let i=1; i<=n; i++){
      availableTable.push(i);
   }
-  // while(!availableTable.length == 0){
+  // while(true){
   console.log("Available Table: "+availableTable);
   var B = "B";
   var C = "C";
